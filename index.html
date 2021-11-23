@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <body>
+            <h1>HTML Form</h1>
+        
+            <div class="container">
+              <form action="/action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name:</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Middle Name:</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="Middle name" placeholder="Your Middle name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Family Name:</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="Family name" placeholder="Your Family name..">
+                </div>
+              </div>
+              <div class="row">
+            <div class="col-25">
+              <label for="Gender">Gender:</label>
+              </div>
+              <input type="radio" id="Female" name="fav_language" value="Female">
+                <label for="Female">Female</label>
+                <input type="radio" id="Male" name="fav_language" value="Male">
+                <label for="Male">Male</label>
+             </div>
+             <div class="row">
+              <div class="col-25">
+                <label for="Email">Email Address:</label>
+              </div>
+              <div class="col-75"></div>
+              <form action="/action_page.php">
+                <input type="email" id="email" name="email"><br>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="homeAdrdress">Home Address:</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="homeAdrdress" name="homeAdrdress" placeholder="Your home address..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="Hobies">Hobies:</label>
+                </div>
+                <div class="col-75"></div>
+                <input type="checkbox" name="Computer Games" value="Hobies">
+                <label for="Computer Games">Computer Games</label>
+                <input type="checkbox" name="Playing music instrument" value="Hobies"> 
+                <label for="Playing Music Instrument">Playing Music Instruments</label>
+                <input type="checkbox" name="Cooking" value="Hobies">
+                <label for="Cooking"> Cooking</label>
+                <input type="checkbox" name="Drawing" value="Hobies"> 
+                <label for="Drawing">Drawing</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="Color">Favorite Color:</label>
+                </div>
+                <div class="col-75">
+                  <select id="Color" name="Color">
+                    <option value="red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="black">black</option>
+                    <option value="pink">Pink</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Violate">Violate</option>
+                    <option value="White">White</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Say something about yourself</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something about yourself.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+              <br>
+              <div class="row">
+                <input type="Reset" value="Clear">
+              </div>
+              </form>
+            </div>
+        </body> 
+    </head>
+</html>
