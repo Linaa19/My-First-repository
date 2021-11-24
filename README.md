@@ -1,6 +1,6 @@
 <!DOCTYPE.html>
 <html>
 <body>
-  <p><b> Name:</b> Jolina Jane C.Bucayan</p>
+  <p>Hi! I'm Jolina Jane C.Bucayan</p>
   </body>
   </html>
